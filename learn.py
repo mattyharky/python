@@ -37,5 +37,6 @@ fMyShoeSize = 11.5
 #This smeans they hold floating point numbers which are numbers with a decimal.
 #No variables starting with an f can be just a whole number.
 #They must have a decimal point.
+print("Hello World")
 
 

@@ -25,4 +25,17 @@ sMyGamerTag = "Glassjaw"
 sMyAddress = "10 Main Street, Dumfries, DG2 7PR"
 #The example above has lots of string of text data
 #You are allowed to mix numbers with text but cannot do arithmetic on this
+iAge = 49
+iYearBorn = 1969
+iThisYear = 2019
+#All of these variables have a small i at the start.
+#This means they hold integers which are also called whole numbers.
+#No variable starting with an i can hold a decimal point
+fThePrice = 2.99
+fMyShoeSize = 11.5
+#All of these variables have a small f at the start.
+#This smeans they hold floating point numbers which are numbers with a decimal.
+#No variables starting with an f can be just a whole number.
+#They must have a decimal point.
+
 

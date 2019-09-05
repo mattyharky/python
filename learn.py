@@ -38,5 +38,8 @@ fMyShoeSize = 11.5
 #No variables starting with an f can be just a whole number.
 #They must have a decimal point.
 print("Hello World")
-
+#The print command sends information to the screen.
+#In our example we need print().
+#Anything between ( and ) are sent to to the screen.
+#So print("Hello") send a string of text "Hello" to the screen.
 

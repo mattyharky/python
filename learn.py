@@ -109,3 +109,27 @@ print("You entered the name " + sName + ".  Thank you.")
 print("Enter the name of the town you live in or near")
 sTown = input()
 print("Thanks " + sName + " I hope that " + sTown + " is a nice town.")
+
+#You can input data and make it into a number
+#This example below is quite detailed so lets see what it does
+#All of the code after try but before except is run.  It must be indented.
+#If an error occurs the code after except is run straight away
+#If the user does not enter a whole number the code after except is run
+try:
+    print("Enter a whole number")
+    iNumber = int(input()) #This line can trigger the except code
+    iDouble = iNumber + iNumber
+    print(str(iNumber) + " doubled is " + str(iDouble))
+except:
+    print("That is not a whole number")
+#Notice that the code after except is also indented
+#We use try along side except to deal with unexpected user data
+#The example below has the first print command removed
+#I have placed a message within the input() command instead which also works
+try:
+    iNumber = int(input("Enter a whole number "))
+    iDouble = iNumber + iNumber
+    print(str(iNumber) + " doubled is " + str(iDouble))
+except:
+    print("That is not a whole number")
+

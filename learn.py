@@ -100,3 +100,12 @@ fFruitCost = fAppleCost + fPearCost
 print("The fruit cost £" + str(fFruitCost))
 #This example uses arithmetic by adding two variables
 
+#You can have the user of your program enter data using the keyboard
+#The input() command is used to do this
+print("Enter your name")
+sName = input()
+print("You entered the name " + sName + ".  Thank you.")
+#As you can see once the user has entered something it can be used in print()
+print("Enter the name of the town you live in or near")
+sTown = input()
+print("Thanks " + sName + " I hope that " + sTown + " is a nice town.")

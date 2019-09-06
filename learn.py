@@ -99,4 +99,3 @@ fPearCost = 0.60
 fFruitCost = fAppleCost + fPearCost
 print("The fruit cost £" + str(fFruitCost))
 #This example uses arithmetic by adding two variables
-

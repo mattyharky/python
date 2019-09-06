@@ -48,4 +48,17 @@ print("I am 49 years old")
 #This example sends another string of text, it even includes numbers BUT it is treated as string
 print("My name is Matty\nI am 49 years old")
 #This example has \n which means take a new line so the text will appear on two lines
+print(sMyForename)
+print(sMySurname)
+print(sMyForename + sMySurname)
+print(sMyForename + " " + sMySurname)
+#The print commands look for the variables in memory and prints the contents
+#The + sign allows you to print more than one thing at a time
+#The + " " + places a space between the variables to show Matthew Harkin
+print("My name is " + sMyForename + " " + sMySurname)
+print(sMyGamerTag + " is my gamertag")
+
+#Printing number does not work so you have to enclose them with str()
+print("I am " + str(iAge) + " years old")
+print("I was born in " + str(iYearBorn) + " and my shoe size is " + str(fMyShoeSize) + " UK")
 

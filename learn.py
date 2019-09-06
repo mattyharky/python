@@ -37,9 +37,15 @@ fMyShoeSize = 11.5
 #This smeans they hold floating point numbers which are numbers with a decimal.
 #No variables starting with an f can be just a whole number.
 #They must have a decimal point.
-print("Hello World")
+print("Hello")
 #The print command sends information to the screen.
 #In our example we need print().
 #Anything between ( and ) are sent to to the screen.
-#So print("Hello") send a string of text "Hello" to the screen.
+#So print("Hello") sends a string of text "Hello" to the screen.
+print("My name is Matty")
+#This example sends another string of text - in this case a sentence to the screen
+print("I am 49 years old")
+#This example sends another string of text, it even includes numbers BUT it is treated as string
+print("My name is Matty\nI am 49 years old")
+#This example has \n which means take a new line so the text will appear on two lines
 
